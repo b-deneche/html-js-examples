@@ -1,0 +1,45 @@
+.colored{
+    max-width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.btn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+.link{
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: aliceblue;
+    overflow: hidden !important;
+    height: 0;
+}
+.show-link{
+    margin-top: 4rem;
+    height: 10rem !important;
+    width: 10rem;
+}
+.nav{
+    height: 4rem;
+}
+
+.side{
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(-100%);
+}
+
+.show{
+    transform:translate(0);
+}

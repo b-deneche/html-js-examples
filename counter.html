@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colored">
+        <h3>count</h3>
+        <h4 id="hc"></h4>
+        <button onclick="count()" class="" id="btn">increment</button>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const hc = document.getElementById("hc");
+      let c = 0;
+      function count() {
+        hc.innerText = c++;
+      }
+    </script>
+  </body>
+</html>

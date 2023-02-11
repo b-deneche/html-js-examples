@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav navbar-expand-lg bg-light">
+      <span class="">logo</span>
+      <button
+        class="btn btn-dark"
+        id="toglleBtn"
+        type="button"
+        onclick="myFunction()"
+      >
+        _
+      </button>
+      <div class="bg-light justify-content-center align-items-center flex-row">
+        <ul class="link flex-row">
+          <li class="nav-link">home</li>
+          <li class="nav-link">projects</li>
+          <li class="nav-link">about</li>
+          <li class="nav-link">contacts</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const link = document.querySelector(".link");
+
+      function myFunction() {
+        link.classList.toggle("show-link");
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
