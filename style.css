@@ -11,6 +11,7 @@
     border: 1px solid #000;
     border-radius: 5px;
 }
+
 .btn{
     position: fixed;
     right: 10px;
@@ -18,8 +19,6 @@
 }
 .link{
     background-color: #000;
-    border: 1px solid #fff;
-    border-radius: 5px;
     color: aliceblue;
     overflow: hidden !important;
     height: 0;
