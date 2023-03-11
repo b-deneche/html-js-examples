@@ -195,7 +195,11 @@ main {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
+<<<<<<< HEAD
 #img {
+=======
+#person-img {
+>>>>>>> 50f3cd7 (stylescss)
   width: 100%;
   display: block;
   height: 100%;
@@ -269,6 +273,7 @@ main {
 .random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
+<<<<<<< HEAD
 }
 
 .banner{
@@ -306,3 +311,6 @@ main {
   top: 0;
   right: 0;
 }
+=======
+}
+>>>>>>> 50f3cd7 (stylescss)
