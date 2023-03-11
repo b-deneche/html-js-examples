@@ -3,8 +3,8 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 /*
 =============== 
 Variables
@@ -195,11 +195,7 @@ main {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
-<<<<<<< HEAD
 #img {
-=======
-#person-img {
->>>>>>> 50f3cd7 (stylescss)
   width: 100%;
   display: block;
   height: 100%;
@@ -273,7 +269,6 @@ main {
 .random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
-<<<<<<< HEAD
 }
 
 .banner{
@@ -281,7 +276,10 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .modal-overlay{
@@ -311,6 +309,67 @@ main {
   top: 0;
   right: 0;
 }
-=======
+
+#title{
+  font-family: 'Courier New', Courier, monospace, cursive;
 }
->>>>>>> 50f3cd7 (stylescss)
+
+.qas{
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: .1rem .1rem .4rem lightblue;
+  border-radius: 4px;
+}
+.qas > *{
+  margin: .5rem;
+}
+
+.question{
+  width: 98%;
+  top: 0%;
+  display:flex;
+
+  gap: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer{
+  height: 0;
+  visibility: hidden;
+}
+.show-answer{
+  margin: .5rem;
+  width: 90%;height: fit-content;
+  visibility: visible;
+  border-top: 1.2px solid lightblue;
+}
+.question > .btn{
+  position:relative;
+  top: 0%;
+  right: 0%;
+}
+
+.btn-container{
+  position:absolute;
+  z-index: 999;
+}
+video{
+  z-index: -999;
+}
+#greeting{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(4, 0, 0, 0.5);
+  color:var(--clr-grey-6);
+  text-shadow: 1px 1px 2px red, 0 0 1em yellow, 0 0 0.2em orange;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
