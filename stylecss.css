@@ -4,12 +4,17 @@ Fonts
 ===============
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /*@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 =======
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 >>>>>>> 22ca069 (stylecss & modal)
+=======
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+>>>>>>> 311b54f (QAS)
 /*
 =============== 
 Variables
@@ -282,13 +287,19 @@ main {
     left: 50%;
     transform: translate(-50%,-50%);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 311b54f (QAS)
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+<<<<<<< HEAD
 =======
     border-radius: 8px;
 >>>>>>> 22ca069 (stylecss & modal)
+=======
+>>>>>>> 311b54f (QAS)
 }
 
 .modal-overlay{
@@ -319,6 +330,9 @@ main {
   right: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 311b54f (QAS)
 
 #title{
   font-family: 'Courier New', Courier, monospace, cursive;
@@ -341,9 +355,13 @@ main {
 .question{
   width: 98%;
   top: 0%;
+<<<<<<< HEAD
   display:flex;
 
   gap: 3px;
+=======
+  display: flex;
+>>>>>>> 311b54f (QAS)
   justify-content: space-between;
   align-items: center;
 }
@@ -358,6 +376,7 @@ main {
   visibility: visible;
   border-top: 1.2px solid lightblue;
 }
+<<<<<<< HEAD
 .question > .btn{
   position:relative;
   top: 0%;
@@ -385,3 +404,11 @@ video{
 }
 =======
 >>>>>>> 22ca069 (stylecss & modal)
+=======
+
+.btn{
+  position:;
+  top: 2px;
+  right: 2px;
+}
+>>>>>>> 311b54f (QAS)
