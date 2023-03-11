@@ -15,8 +15,13 @@ btns.addEventListener('click',function(){
         side.classList.remove('show');}
     else{
     side.classList.add("show");
+<<<<<<< HEAD
     console.log(side.classList);
 }
 });
 
 
+=======
+}
+});
+>>>>>>> 7209968 (reviews)

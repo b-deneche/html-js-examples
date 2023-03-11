@@ -31,6 +31,7 @@ const reviews = [
   ];
 
   
+<<<<<<< HEAD
 const prev = document.querySelector('.fa-chevron-left');
 const next = document.querySelector('.fa-chevron-right');
 const rnd = document.querySelector('.random-btn');
@@ -38,13 +39,24 @@ const rnd = document.querySelector('.random-btn');
 const auth = document.querySelector('.author');
 const job = document.querySelector('#job');
 const img = document.querySelector('#img');
+=======
+const prev = document.querySelector('.fa-chevron-left')
+const next = document.querySelector('.fa-chevron-right')
+const rnd = document.querySelector('.random-btn')
+
+const auth = document.querySelector('.author');
+const job = document.querySelector('#job');
+>>>>>>> 7209968 (reviews)
 const info = document.querySelector('#info');
 
 let currentItem = 0;
 
 const showPerson = (person)=>{
   const item = reviews[person];
+<<<<<<< HEAD
   img.src = item.img;
+=======
+>>>>>>> 7209968 (reviews)
   auth.textContent = item.name;
   job.textContent = item.job;
   info.textContent = item.text;
@@ -52,6 +64,7 @@ const showPerson = (person)=>{
 
 window.addEventListener('DOMContentLoaded',()=>{
   showPerson(currentItem);
+<<<<<<< HEAD
 });
 
 prev.addEventListener('click',()=>{
@@ -67,6 +80,24 @@ rnd.addEventListener('click',()=>{
   console.log(currentItem);
   showPerson(currentItem);
 });
+=======
+})
+
+prev.addEventListener('click',()=>{
+  showPerson(Math.abs(currentItem--)%4);
+})
+
+next.addEventListener('click',()=>{
+  showPerson(Math.abs(currentItem++)%4);
+})
+
+rnd.addEventListener('click',()=>{
+  
+  currentItem = Math.round((Math.random()*100)%3);
+  console.log(currentItem);
+  showPerson(currentItem);
+})
+>>>>>>> 7209968 (reviews)
 
 
 

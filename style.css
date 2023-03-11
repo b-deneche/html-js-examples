@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+:root{
+    --background-color: #000010;
+    --font-color:#ddf;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.dark-theme{
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+.light-theme{
+    background-color: var(--font-theme);
+    color: var(--background-color);
+}
+
+
+>>>>>>> 7209968 (reviews)
 .colored{
     max-width: 40%;
     margin: auto;
@@ -11,14 +38,24 @@
     border: 1px solid #000;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 
 .btn{
     position: fixed;
+=======
+.btn{
+    position: absolute;
+>>>>>>> 7209968 (reviews)
     right: 10px;
     top: 10px;
 }
 .link{
     background-color: #000;
+<<<<<<< HEAD
+=======
+    border: 1px solid #fff;
+    border-radius: 5px;
+>>>>>>> 7209968 (reviews)
     color: aliceblue;
     overflow: hidden !important;
     height: 0;
