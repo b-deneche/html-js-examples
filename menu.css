@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&family=Special+Elite&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+>>>>>>> 08bea91 (QAS datatset)
 /*
 =============== 
 Variables
@@ -83,7 +88,11 @@ img {
   display: block;
 }
 
+<<<<<<< HEAD
 
+=======
+h1,
+>>>>>>> 08bea91 (QAS datatset)
 h2,
 h3,
 h4 {
@@ -91,6 +100,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+<<<<<<< HEAD
   font-family: 'Phudu', cursive;
 }
 h1 {
@@ -100,6 +110,12 @@ h1 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: 'Phudu', cursive;
+=======
+  font-family: var(--ff-primary);
+}
+h1 {
+  font-size: 3rem;
+>>>>>>> 08bea91 (QAS datatset)
 }
 h2 {
   font-size: 2rem;
@@ -142,12 +158,17 @@ p {
 .btn {
   text-transform: uppercase;
   background: transparent;
+<<<<<<< HEAD
   color: inherit;
+=======
+  color: var(--clr-black);
+>>>>>>> 08bea91 (QAS datatset)
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
+<<<<<<< HEAD
   border: 2px solid var(--clr-grey-5);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(74, 73, 73, 0.2);
@@ -157,6 +178,16 @@ p {
 .btn:hover {
   color: inherit;
   background: var(--clr-grey-6);
+=======
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+}
+.btn:hover {
+  color: var(--clr-white);
+  background: var(--clr-black);
+>>>>>>> 08bea91 (QAS datatset)
 }
 /* section */
 .section {
@@ -173,10 +204,14 @@ main {
 Menu
 ===============
 */
+<<<<<<< HEAD
 .dark{
   background-color: #222;
   color: beige;
 }
+=======
+
+>>>>>>> 08bea91 (QAS datatset)
 .menu {
   padding: 5rem 0;
 }
@@ -248,7 +283,10 @@ Menu
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08bea91 (QAS datatset)
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
@@ -268,6 +306,7 @@ Menu
     height: 150px;
   }
 }
+<<<<<<< HEAD
 
 .hidden{
   visibility: hidden;
@@ -284,3 +323,6 @@ Menu
   border: 5px solid var(--clr-grey-5);
   width: max-content;
 }
+=======
+Footer
+>>>>>>> 08bea91 (QAS datatset)

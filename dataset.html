@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <div>
+      <button class="btn" data-id="cat">cat</button>
+      <button class="btn" data-id="dog">dog</button>
+      <button class="btn" data-id="sheep">sheep</button>
+      <button class="btn" data-id="rabbit">rabbit</button>
+    </div>
+
+    <script src="" async defer></script>
+    <script>
+      const button = document.querySelectorAll(".btn");
+      button.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          console.log(btn.dataset.id);
+        });
+      });
+    </script>
+  </body>
+</html>
