@@ -3,8 +3,13 @@
 Fonts
 ===============
 */
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /*@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+=======
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+>>>>>>> 22ca069 (stylecss & modal)
 /*
 =============== 
 Variables
@@ -276,10 +281,14 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+<<<<<<< HEAD
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+=======
+    border-radius: 8px;
+>>>>>>> 22ca069 (stylecss & modal)
 }
 
 .modal-overlay{
@@ -309,6 +318,7 @@ main {
   top: 0;
   right: 0;
 }
+<<<<<<< HEAD
 
 #title{
   font-family: 'Courier New', Courier, monospace, cursive;
@@ -373,3 +383,5 @@ video{
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+=======
+>>>>>>> 22ca069 (stylecss & modal)
