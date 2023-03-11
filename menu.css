@@ -1,16 +1,10 @@
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&family=Special+Elite&display=swap');
-=======
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
->>>>>>> 08bea91 (QAS datatset)
-=======
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&family=Special+Elite&display=swap');
->>>>>>> b3aba55 (video backgrnd)
 /*
 =============== 
 Variables
@@ -93,15 +87,7 @@ img {
   display: block;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 h1,
->>>>>>> 08bea91 (QAS datatset)
-=======
-
->>>>>>> b3aba55 (video backgrnd)
 h2,
 h3,
 h4 {
@@ -109,8 +95,6 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: 'Phudu', cursive;
 }
 h1 {
@@ -120,13 +104,10 @@ h1 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: 'Phudu', cursive;
-=======
   font-family: var(--ff-primary);
 }
 h1 {
   font-size: 3rem;
->>>>>>> 08bea91 (QAS datatset)
-=======
   font-family: 'Phudu', cursive;
 }
 h1 {
@@ -136,7 +117,6 @@ h1 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: 'Phudu', cursive;
->>>>>>> b3aba55 (video backgrnd)
 }
 h2 {
   font-size: 2rem;
@@ -179,22 +159,14 @@ p {
 .btn {
   text-transform: uppercase;
   background: transparent;
-<<<<<<< HEAD
-<<<<<<< HEAD
   color: inherit;
-=======
   color: var(--clr-black);
->>>>>>> 08bea91 (QAS datatset)
-=======
   color: inherit;
->>>>>>> b3aba55 (video backgrnd)
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
   border: 2px solid var(--clr-grey-5);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(74, 73, 73, 0.2);
@@ -204,25 +176,18 @@ p {
 .btn:hover {
   color: inherit;
   background: var(--clr-grey-6);
-=======
   border: 2px solid var(--clr-black);
-=======
   border: 2px solid var(--clr-grey-5);
->>>>>>> b3aba55 (video backgrnd)
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(74, 73, 73, 0.2);
   border-radius: var(--radius);
   font-family: 'Phudu', cursive;
 }
 .btn:hover {
-<<<<<<< HEAD
   color: var(--clr-white);
   background: var(--clr-black);
->>>>>>> 08bea91 (QAS datatset)
-=======
   color: inherit;
   background: var(--clr-grey-6);
->>>>>>> b3aba55 (video backgrnd)
 }
 /* section */
 .section {
@@ -239,20 +204,10 @@ main {
 Menu
 ===============
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b3aba55 (video backgrnd)
 .dark{
   background-color: #222;
   color: beige;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 08bea91 (QAS datatset)
-=======
->>>>>>> b3aba55 (video backgrnd)
 .menu {
   padding: 5rem 0;
 }
@@ -324,14 +279,7 @@ Menu
   padding-top: 1rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 08bea91 (QAS datatset)
-=======
-
->>>>>>> b3aba55 (video backgrnd)
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
@@ -351,11 +299,6 @@ Menu
     height: 150px;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b3aba55 (video backgrnd)
-
 .hidden{
   visibility: hidden;
   transform: scale(0);
@@ -370,11 +313,4 @@ Menu
   border-radius: 5px;
   border: 5px solid var(--clr-grey-5);
   width: max-content;
-<<<<<<< HEAD
 }
-=======
-Footer
->>>>>>> 08bea91 (QAS datatset)
-=======
-}
->>>>>>> b3aba55 (video backgrnd)

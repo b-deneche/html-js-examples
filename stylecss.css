@@ -286,20 +286,11 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 311b54f (QAS)
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-<<<<<<< HEAD
-=======
     border-radius: 8px;
->>>>>>> 22ca069 (stylecss & modal)
-=======
->>>>>>> 311b54f (QAS)
 }
 
 .modal-overlay{
@@ -329,11 +320,6 @@ main {
   top: 0;
   right: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 311b54f (QAS)
-
 #title{
   font-family: 'Courier New', Courier, monospace, cursive;
 }
@@ -355,19 +341,13 @@ main {
 .question{
   width: 98%;
   top: 0%;
-<<<<<<< HEAD
-<<<<<<< HEAD
   display:flex;
 
   gap: 3px;
-=======
   display: flex;
->>>>>>> 311b54f (QAS)
-=======
   display:flex;
 
   gap: 3px;
->>>>>>> b3aba55 (video backgrnd)
   justify-content: space-between;
   align-items: center;
 }
@@ -382,16 +362,11 @@ main {
   visibility: visible;
   border-top: 1.2px solid lightblue;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b3aba55 (video backgrnd)
 .question > .btn{
   position:relative;
   top: 0%;
   right: 0%;
 }
-<<<<<<< HEAD
 
 .btn-container{
   position:absolute;
@@ -414,18 +389,12 @@ video{
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-=======
->>>>>>> 22ca069 (stylecss & modal)
-=======
 
 .btn{
   position:;
   top: 2px;
   right: 2px;
 }
->>>>>>> 311b54f (QAS)
-=======
-
 .btn-container{
   position:absolute;
   z-index: 999;
@@ -445,4 +414,3 @@ video{
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
->>>>>>> b3aba55 (video backgrnd)
